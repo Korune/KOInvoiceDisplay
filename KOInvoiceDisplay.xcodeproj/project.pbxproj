@@ -7,11 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D296F541FD3EE2800C816DB /* KOInvoiceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D296F531FD3EE2800C816DB /* KOInvoiceInfo.m */; };
+		5D296F5A1FD3F4A500C816DB /* KOTradingGoods.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D296F591FD3F4A500C816DB /* KOTradingGoods.m */; };
+		5D296F5D1FD3FE8500C816DB /* KOInvoicePrompt.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D296F5C1FD3FE8500C816DB /* KOInvoicePrompt.m */; };
+		5D296F601FD400EA00C816DB /* KOInvoiceConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D296F5F1FD400EA00C816DB /* KOInvoiceConst.m */; };
+		5D3425301FE6459D006F690F /* KOInvoiceTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D34252F1FE6459D006F690F /* KOInvoiceTableHeaderView.m */; };
+		5DC18DDE1FD3748300207AE0 /* KOInvoiceDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC18DDD1FD3748300207AE0 /* KOInvoiceDetailCell.m */; };
+		5DC18DE11FD374A800207AE0 /* KOInvoicePromptCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC18DE01FD374A800207AE0 /* KOInvoicePromptCell.m */; };
+		5DC18DE41FD3752000207AE0 /* KOInvoiceDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC18DE31FD3752000207AE0 /* KOInvoiceDetailController.m */; };
+		5DDE67201FEBE675002BA8A3 /* KOInvoiceSectionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DDE671F1FEBE675002BA8A3 /* KOInvoiceSectionItem.m */; };
 		5DF216941FCF060000521416 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF216931FCF060000521416 /* AppDelegate.m */; };
 		5DF216971FCF060000521416 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF216961FCF060000521416 /* ViewController.m */; };
 		5DF2169A1FCF060000521416 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DF216981FCF060000521416 /* Main.storyboard */; };
 		5DF2169C1FCF060000521416 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DF2169B1FCF060000521416 /* Assets.xcassets */; };
-		5DF2169F1FCF060000521416 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DF2169D1FCF060000521416 /* LaunchScreen.storyboard */; };
 		5DF216A21FCF060000521416 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF216A11FCF060000521416 /* main.m */; };
 		5DF216AC1FCF060000521416 /* KOInvoiceDisplayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF216AB1FCF060000521416 /* KOInvoiceDisplayTests.m */; };
 		5DF216B71FCF060000521416 /* KOInvoiceDisplayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF216B61FCF060000521416 /* KOInvoiceDisplayUITests.m */; };
@@ -35,6 +43,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D296F521FD3EE2800C816DB /* KOInvoiceInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOInvoiceInfo.h; sourceTree = "<group>"; };
+		5D296F531FD3EE2800C816DB /* KOInvoiceInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KOInvoiceInfo.m; sourceTree = "<group>"; };
+		5D296F581FD3F4A500C816DB /* KOTradingGoods.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOTradingGoods.h; sourceTree = "<group>"; };
+		5D296F591FD3F4A500C816DB /* KOTradingGoods.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KOTradingGoods.m; sourceTree = "<group>"; };
+		5D296F5B1FD3FE8500C816DB /* KOInvoicePrompt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOInvoicePrompt.h; sourceTree = "<group>"; };
+		5D296F5C1FD3FE8500C816DB /* KOInvoicePrompt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KOInvoicePrompt.m; sourceTree = "<group>"; };
+		5D296F5E1FD400EA00C816DB /* KOInvoiceConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOInvoiceConst.h; sourceTree = "<group>"; };
+		5D296F5F1FD400EA00C816DB /* KOInvoiceConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KOInvoiceConst.m; sourceTree = "<group>"; };
+		5D34252E1FE6459D006F690F /* KOInvoiceTableHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOInvoiceTableHeaderView.h; sourceTree = "<group>"; };
+		5D34252F1FE6459D006F690F /* KOInvoiceTableHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KOInvoiceTableHeaderView.m; sourceTree = "<group>"; };
+		5DC18DDC1FD3748300207AE0 /* KOInvoiceDetailCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOInvoiceDetailCell.h; sourceTree = "<group>"; };
+		5DC18DDD1FD3748300207AE0 /* KOInvoiceDetailCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KOInvoiceDetailCell.m; sourceTree = "<group>"; };
+		5DC18DDF1FD374A800207AE0 /* KOInvoicePromptCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOInvoicePromptCell.h; sourceTree = "<group>"; };
+		5DC18DE01FD374A800207AE0 /* KOInvoicePromptCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KOInvoicePromptCell.m; sourceTree = "<group>"; };
+		5DC18DE21FD3752000207AE0 /* KOInvoiceDetailController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOInvoiceDetailController.h; sourceTree = "<group>"; };
+		5DC18DE31FD3752000207AE0 /* KOInvoiceDetailController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KOInvoiceDetailController.m; sourceTree = "<group>"; };
+		5DDE671E1FEBE675002BA8A3 /* KOInvoiceSectionItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOInvoiceSectionItem.h; sourceTree = "<group>"; };
+		5DDE671F1FEBE675002BA8A3 /* KOInvoiceSectionItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KOInvoiceSectionItem.m; sourceTree = "<group>"; };
 		5DF2168F1FCF060000521416 /* KOInvoiceDisplay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KOInvoiceDisplay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DF216921FCF060000521416 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5DF216931FCF060000521416 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -42,7 +68,6 @@
 		5DF216961FCF060000521416 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5DF216991FCF060000521416 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5DF2169B1FCF060000521416 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5DF2169E1FCF060000521416 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DF216A01FCF060000521416 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DF216A11FCF060000521416 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5DF216A71FCF060000521416 /* KOInvoiceDisplayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KOInvoiceDisplayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,6 +103,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5DC18DD91FD3740C00207AE0 /* InvoiceDetail */ = {
+			isa = PBXGroup;
+			children = (
+				5DC18DDB1FD3743100207AE0 /* Model */,
+				5DC18DDA1FD3742400207AE0 /* View */,
+				5DC18DE21FD3752000207AE0 /* KOInvoiceDetailController.h */,
+				5DC18DE31FD3752000207AE0 /* KOInvoiceDetailController.m */,
+			);
+			path = InvoiceDetail;
+			sourceTree = "<group>";
+		};
+		5DC18DDA1FD3742400207AE0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5DC18DDC1FD3748300207AE0 /* KOInvoiceDetailCell.h */,
+				5DC18DDD1FD3748300207AE0 /* KOInvoiceDetailCell.m */,
+				5DC18DDF1FD374A800207AE0 /* KOInvoicePromptCell.h */,
+				5DC18DE01FD374A800207AE0 /* KOInvoicePromptCell.m */,
+				5D34252E1FE6459D006F690F /* KOInvoiceTableHeaderView.h */,
+				5D34252F1FE6459D006F690F /* KOInvoiceTableHeaderView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5DC18DDB1FD3743100207AE0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5D296F521FD3EE2800C816DB /* KOInvoiceInfo.h */,
+				5D296F531FD3EE2800C816DB /* KOInvoiceInfo.m */,
+				5D296F581FD3F4A500C816DB /* KOTradingGoods.h */,
+				5D296F591FD3F4A500C816DB /* KOTradingGoods.m */,
+				5D296F5B1FD3FE8500C816DB /* KOInvoicePrompt.h */,
+				5D296F5C1FD3FE8500C816DB /* KOInvoicePrompt.m */,
+				5D296F5E1FD400EA00C816DB /* KOInvoiceConst.h */,
+				5D296F5F1FD400EA00C816DB /* KOInvoiceConst.m */,
+				5DDE671E1FEBE675002BA8A3 /* KOInvoiceSectionItem.h */,
+				5DDE671F1FEBE675002BA8A3 /* KOInvoiceSectionItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5DCD8DAA1FD03CF5006DBE35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DF216A01FCF060000521416 /* Info.plist */,
+				5DF216A11FCF060000521416 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		5DF216861FCF060000521416 = {
 			isa = PBXGroup;
 			children = (
@@ -101,15 +176,14 @@
 		5DF216911FCF060000521416 /* KOInvoiceDisplay */ = {
 			isa = PBXGroup;
 			children = (
+				5DC18DD91FD3740C00207AE0 /* InvoiceDetail */,
 				5DF216921FCF060000521416 /* AppDelegate.h */,
 				5DF216931FCF060000521416 /* AppDelegate.m */,
+				5DF2169B1FCF060000521416 /* Assets.xcassets */,
+				5DF216981FCF060000521416 /* Main.storyboard */,
+				5DCD8DAA1FD03CF5006DBE35 /* Supporting Files */,
 				5DF216951FCF060000521416 /* ViewController.h */,
 				5DF216961FCF060000521416 /* ViewController.m */,
-				5DF216981FCF060000521416 /* Main.storyboard */,
-				5DF2169B1FCF060000521416 /* Assets.xcassets */,
-				5DF2169D1FCF060000521416 /* LaunchScreen.storyboard */,
-				5DF216A01FCF060000521416 /* Info.plist */,
-				5DF216A11FCF060000521416 /* main.m */,
 			);
 			path = KOInvoiceDisplay;
 			sourceTree = "<group>";
@@ -238,7 +312,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DF2169F1FCF060000521416 /* LaunchScreen.storyboard in Resources */,
 				5DF2169C1FCF060000521416 /* Assets.xcassets in Resources */,
 				5DF2169A1FCF060000521416 /* Main.storyboard in Resources */,
 			);
@@ -265,8 +338,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D296F5D1FD3FE8500C816DB /* KOInvoicePrompt.m in Sources */,
+				5D296F541FD3EE2800C816DB /* KOInvoiceInfo.m in Sources */,
+				5DC18DE11FD374A800207AE0 /* KOInvoicePromptCell.m in Sources */,
+				5D296F5A1FD3F4A500C816DB /* KOTradingGoods.m in Sources */,
 				5DF216971FCF060000521416 /* ViewController.m in Sources */,
+				5D3425301FE6459D006F690F /* KOInvoiceTableHeaderView.m in Sources */,
+				5D296F601FD400EA00C816DB /* KOInvoiceConst.m in Sources */,
 				5DF216A21FCF060000521416 /* main.m in Sources */,
+				5DDE67201FEBE675002BA8A3 /* KOInvoiceSectionItem.m in Sources */,
+				5DC18DDE1FD3748300207AE0 /* KOInvoiceDetailCell.m in Sources */,
+				5DC18DE41FD3752000207AE0 /* KOInvoiceDetailController.m in Sources */,
 				5DF216941FCF060000521416 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,14 +391,6 @@
 				5DF216991FCF060000521416 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5DF2169D1FCF060000521416 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5DF2169E1FCF060000521416 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -370,7 +444,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -419,7 +493,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -431,6 +505,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A2TFPRX5C7;
 				INFOPLIST_FILE = KOInvoiceDisplay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Korune.KOInvoiceDisplay;
@@ -444,6 +519,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A2TFPRX5C7;
 				INFOPLIST_FILE = KOInvoiceDisplay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Korune.KOInvoiceDisplay;
